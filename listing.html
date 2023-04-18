@@ -10,11 +10,13 @@
   </head>
   <body>
     <nav id="navbar" class="navbar-white">
-      <img src="images/logo-red.png" alt="" class="logo" />
+      <a href="index.html">
+        <img src="images/logo-red.png" alt="" class="logo" />
+      </a>
       <ul class="nav-links">
-        <li><a href="" class="active">Popular Places</a></li>
+        <li><a href="index.html" class="active">Popular Places</a></li>
         <li><a href="">Travel Outside</a></li>
-        <li><a href="">Online Packages</a></li>
+        <li><a href="listing.html">Online Packages</a></li>
       </ul>
       <a href="" class="register-btn">Register Now</a>
       <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
@@ -27,7 +29,7 @@
           <h1>Recommended Places in san Francisco</h1>
           <div class="house">
             <div class="house-img">
-              <img src="images/image-s1.png" alt="" />
+              <img src="images/image-s2.png" alt="" />
             </div>
             <div class="house-info">
               <p>Private villa in san Francisco</p>
@@ -42,11 +44,12 @@
                 <p>2 Guest</p>
                 <h4>$ 100 <span>/ day</span></h4>
               </div>
+              <a href="house.html">Check Aviability</a>
             </div>
           </div>
           <div class="house">
             <div class="house-img">
-              <img src="images/image-s2.png" alt="" />
+              <img src="images/image-s1.png" alt="" />
             </div>
             <div class="house-info">
               <p>Private villa in san Francisco</p>
@@ -216,15 +219,10 @@
         <a href=""><i class="fa-brands fa-instagram"></i></a>
         <a href=""><i class="fa-brands fa-linkedin"></i></a>
         <hr />
-        <p>copyright <i class="fa-regular fa-copyright"></i> 2023, Rudianto</p>
+        <p>Copyright <i class="fa-regular fa-copyright"></i> 2023, Rudianto</p>
       </footer>
     </div>
 
-    <script>
-      const navbar = document.getElementById('navbar');
-      function togglebtn() {
-        navbar.classList.toggle('hidemenu');
-      }
-    </script>
+    <script src="javascript.js"></script>
   </body>
 </html>
